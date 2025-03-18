@@ -1,4 +1,4 @@
-                default_prompt = modules.config.default_prompt
+default_prompt = modules.config.default_prompt
                 if isinstance(default_prompt, str) and default_prompt != '':
                     shared.gradio_root.load(lambda: default_prompt, outputs=prompt)
 
